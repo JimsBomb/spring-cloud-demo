@@ -35,7 +35,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.chingo.web.App"
+    mainClass = "org.chingo.web.AppMain"
 }
 
 tasks.named<Test>("test") {

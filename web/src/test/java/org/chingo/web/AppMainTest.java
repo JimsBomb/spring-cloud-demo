@@ -6,9 +6,9 @@ package org.chingo.web;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class AppTest {
+class AppMainTest {
     @Test void appHasAGreeting() {
-        App classUnderTest = new App();
+        AppMain classUnderTest = new AppMain();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
 }
