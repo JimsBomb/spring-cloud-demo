@@ -11,7 +11,6 @@ plugins {
 }
 
 rootProject.name = "spring-cloud-demo"
-include("app")
 include("web")
+include("service")
 include("common")
-include("model")

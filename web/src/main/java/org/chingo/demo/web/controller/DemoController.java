@@ -17,7 +17,7 @@ public class DemoController {
     private String demoProp;
 
     @RequestMapping("test")
-    public Map test(@RequestParam String input) {
+    public Map test(@RequestParam(required = false) String input) {
         Map<String, Object> resp = new HashMap<>();
         resp.put("method", "test");
         resp.put("input", input);
